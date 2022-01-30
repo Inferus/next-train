@@ -1,13 +1,18 @@
 {
   "dependencies": {
+    "dotenv": "^14.3.2",
     "express": "^4.17.2"
   },
   "name": "next-train",
   "version": "1.0.0",
   "main": "app.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
